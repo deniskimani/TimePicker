@@ -1,6 +1,6 @@
 {
   "name": "vue-bootstrap-time-picker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple 12 hour clock system time picker",
   "main": "TimePicker.vue",
   "repository": "https://github.com/deniskimani/TimePicker.git",
