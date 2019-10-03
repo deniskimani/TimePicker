@@ -1,6 +1,6 @@
 # Installation
 
-![screenshot](./screenshot.png)
+![screenshot](https://raw.githubusercontent.com/deniskimani/TimePicker/master/screenshot.png)
 
 
 ```
