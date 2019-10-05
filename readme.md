@@ -35,3 +35,10 @@ export default {
     <time-picker v-model="time" />
 </form>
 ```
+
+## Props
+
+| prop  |value   |description   |
+|---|---|---|
+|name | string: default=""| name of the input|
+|placeholder | string: default=""| placeholder for the input|

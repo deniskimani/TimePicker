@@ -1,6 +1,6 @@
 <template>
   <div class="time-picker">
-    <div class="input-group">
+    <div class="input-group" >
       <input
         type="text"
         id="time-picker-input"
@@ -8,6 +8,8 @@
         @focus="inputFocused"
         @focusout="inputOut"
         v-model="selected_time"
+        :name="name"
+        :placeholder="placeholder"
       />
       <span class="input-group-addon" @click="inputFocused">
         <span class="fa fa-clock-o" aria-hidden="true"></span>
@@ -80,6 +82,16 @@ export default {
     value: {
       required: true,
       type: String
+    },
+
+    name: {
+        type: String,
+        default() { return '' }
+    },
+
+    placeholder: {
+        type: String,
+        default() { return '' }
     }
   },
 
